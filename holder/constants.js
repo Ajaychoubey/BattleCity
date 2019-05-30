@@ -2,13 +2,13 @@ const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 const TITLE = 'Battle City';
 // FOLDERS
-const ROOT_FOLDER = 'C:/Users/Rudra/Desktop/Battle Tanks';
+const ROOT_FOLDER = './';
 const IMAGE_SRC = `${ROOT_FOLDER}/images`; 
 const AUDIO_SRC = `${ROOT_FOLDER}/audio`;
 // GAME
 const LEVEL_LABEL_COORDINATES_X = 76;
 const LEVEL_LABEL_COORDINATES_Y = 136;
-const BACKGROUND_COLOR = '#000';
+const BACKGROUND_COLOR = 'rgba(0, 0, 0, 0.2)';
 const ANIMATION_TICKS = 50;
 const keyBindings = {
     "up":"ArrowUp",
