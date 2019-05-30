@@ -1,4 +1,4 @@
-canvas.width = 1500+BRICK_WIDTH*2;
+canvas.width = 1500;
 canvas.height = 792;
 createLevels(levels[level_no]);
 let blocks = [...bricks,...iron_blocks,...water,...eagles];
